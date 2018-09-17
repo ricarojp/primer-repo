@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<script>
+    function eliminar () {
+      //document.getElementById("lista").children[0].remove();
+      document.getElementsByClassName("prueba-lista")[0].children[0].remove();
+    }
+
+</script>
+
+<body>
+<h1><center>PRUEBA LISTA</center></h1>
+
+  <div class="container">
+    <div class="row">
+      <ul id="lista" class="prueba-lista">
+      <li>enero</li>
+      <li>febrero</li>
+      <li>marzo</li>
+      <li>abril</li>
+      <li>mayo</li>
+      <li>junio</li>
+      <li>julio</li>
+      <li>agosto</li>
+      <li>septiembre</li>
+    </ul>
+  </div>
+ </div>
+<center><button onclick="eliminar()">Eliminar</button></center>
+</body>
+</html>

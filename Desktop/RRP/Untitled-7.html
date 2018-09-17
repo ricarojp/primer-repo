@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<script>
+    function funcionUno (palabra) {
+        document.getElementById("Lista").children[0].remove();
+
+    }
+
+
+ // document.getElementById("prueba-uno").children[0]
+
+
+
+
+</script>
+
+
+</head>
+
+<body>
+
+  <body> 
+    <input type="button" value="Ver" 
+     onClick="document.getElementById('oculto').style.visibility='visible'"> 
+    <input type="button" value="Eliminar un ítem" 
+     onClick="funcionUno()" > 
+
+     <button onclick="funcionUno()">Click me</button>
+      
+    <br>Este texto se ve siempre 
+    <div id="oculto" style="visibility:hidden"> 
+      <div class="row">
+        <ul>
+          <li>america</li>
+          <li>cali</li>
+          <li>millonarios</li>
+          <li>santafe </li>
+        </ul> 
+    </div> 
+    </body>  
+    
+</html>

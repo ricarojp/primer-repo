@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <SCript>
+        var EliminaCero = function(){
+            //Elimina el elemneto "0" de la lista
+            document.getElementById("prueba_lista").children[0].remove
+        };
+    </SCript>
+
+    <input type="button" value="Ver" onclick="document.getElementById(`mostrar`).style.visibility=`visible`">
+    <button onclick="EliminaCero()">Eliminar</button>
+    <div id="mostrar" style="visibility:hidden">
+        <div class="row">
+            <ol id="prueba_lista">
+                <li>h</li>                 
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+                <li>d</li>
+                <li>e</li>
+            </ol>
+            
+        </div>
+    </div>
+</body>
+</html>
